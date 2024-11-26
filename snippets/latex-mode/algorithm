@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: algorithm
+# key: algorithm
+# auther: Georg R. Pollak
+# --
+\begin{algorithmbox}\nospacing
+  \begin{algo}[${1:Title}]\leavevmode
+    \begin{algorithmic}[1]
+      ${2:\item[] \imp{Given}:}
+        ${3:\For{$t=1,\ldots,T$}}
+        \State
+        ${3:\EndFor}
+    \end{algorithmic}
+  \end{algo}
+\end{algorithmbox}

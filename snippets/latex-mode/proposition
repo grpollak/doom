@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+#name : proposition
+#key : proposition
+#group : theorem
+#contributor : Georg Pollak
+# --
+\begin{propositionbox}\nospacing
+    \begin{proposition}${1:[${2:title}]}${3:\label{proposition:${2:$(create-label-for-theorem yas-text)}}}
+        $0
+    \end{proposition}
+\end{propositionbox}

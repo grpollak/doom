@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: def
+# key: def
+# group: functions
+# contributor: Georg R. Pollak <pollakgeorg@gmail.com>
+# --
+def ${1:name}(${2:args}):
+    ${3:pass}$0

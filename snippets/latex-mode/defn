@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: defn
+# key: defn
+# contributor: Georg R. Pollak
+# group: theorem
+# --
+\begin{defnbox}\nospacing
+    \begin{defn}${1:[${2:title}]}${3:\label{defn:${2:$(create-label-for-theorem yas-text)}}}
+        $0
+    \end{defn}
+\end{defnbox}
